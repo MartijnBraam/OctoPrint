@@ -62,6 +62,7 @@ INSTALL_REQUIRES = [
     "sentry-sdk>=0.15.1,<1",
     "filetype>=1.0.7,<2",
     "zipstream-new>=1.1.8,<1.2",
+    "frozendict>=1.2,<3",
     # vendor bundled dependencies
     "unidecode>=0.04.14,<0.05",  # dependency of awesome-slugify
     "blinker>=1.4,<2",  # dependency of flask_principal
@@ -76,14 +77,12 @@ INSTALL_REQUIRES_PYTHON2 = [
     "chainmap>=1.0.3,<2",
     "typing>=3.7.4.1,<4",
     "enum34>=1.1.10,<1.2",
-    "frozendict>=1.2,<2",
 ]
 
 # Python 3 specific requirements
 INSTALL_REQUIRES_PYTHON3 = [
     "feedparser>=6.0.2,<7",
     "zeroconf>=0.24,<0.25",
-    "immutabledict>=1.2.0,<2",
 ]
 
 # OSX specific requirements
